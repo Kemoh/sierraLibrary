@@ -56,21 +56,20 @@ img {
     line-height: 4rem;
     font-size: var(--font--headline);
     font-family: var(--font--headline);
-}
  
-.header-container img {
+ img {
         width: 44px;
         height: auto;
     }
 
-.header-container  a {
+  a {
         display: flex;
         text-decoration: none;
         font-size: var(--font-base);
         color: var(--primary-color);
     }
 
- .header-container span {
+  span {
         color: var(--tertiary-color);
         font-weight: 700;
     }
@@ -140,6 +139,7 @@ img {
 #animateme.show {
 	grid-template-rows: 1fr;
     }
+}
 
 
 footer {
